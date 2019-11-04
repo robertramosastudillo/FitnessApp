@@ -18,23 +18,4 @@ const ExerciseList = ({ exercises }) => (
   </div>
 );
 
-// function ExerciseList(props) {
-//   return (
-//     <div>
-//       {props.exercises.map((exercise, i) => {
-//         return (
-//           <Card
-//             key={i}
-//             title={exercise.title}
-//             description={exercise.description}
-//             img={exercise.img}
-//             leftColor={exercise.leftColor}
-//             rightColor={exercise.rightColor}
-//           />
-//         );
-//       })}
-//     </div>
-//   );
-// }
-
 export default ExerciseList;

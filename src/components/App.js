@@ -14,16 +14,4 @@ const App = () => (
   </BrowserRouter>
 );
 
-// function App() {
-//   return (
-//     <BrowserRouter>
-//       <Switch>
-//         <Route exact path="/exercise" component={Exercises} />
-//         <Route exact path="/exercise/new" component={ExerciseNew} />
-//         <Route component={NotFound} />
-//       </Switch>
-//     </BrowserRouter>
-//   );
-// }
-
 export default App;
