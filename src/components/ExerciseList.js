@@ -4,9 +4,10 @@ import Card from "./Card";
 function ExerciseList(props) {
   return (
     <div>
-      {props.exercises.map(exercise => {
+      {props.exercises.map((exercise, i) => {
         return (
           <Card
+            key={i}
             title={exercise.title}
             description={exercise.description}
             img={exercise.img}
