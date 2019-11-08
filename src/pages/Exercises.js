@@ -37,11 +37,11 @@ class Exercises extends React.Component {
     if (this.state.error) return <FatalError />;
 
     return (
-      <div>
+      <React.Fragment>
         <Welcome username="Robert" />
         <ExerciseList exercises={this.state.data} />
         <AddButtom />
-      </div>
+      </React.Fragment>
     );
   }
 }
