@@ -9,12 +9,4 @@ const AddButton = () => (
   </Link>
 );
 
-// function AddButton() {
-//   return (
-//     <Link to="/exercise/new">
-//       <img src={buttomImg} alt="" className="Fitness-Add" />
-//     </Link>
-//   );
-// }
-
 export default AddButton;
